@@ -5,8 +5,8 @@
         "Element": "Fire",
         "Symbol": "(♈︎)",
         "Background": "Aries (Greek: Κριός, romanized: Kriós, Latin for ram) is the first astrological sign in the zodiac, spanning the first 30 degrees of celestial longitude (0°≤ λ <30°), and originates from the Aries constellation. Under the tropical zodiac, the Sun transits this sign from approximately March 21 to April 19 each year.[2] This time duration is exactly the first month of the Solar Hijri calendar (Arabic Hamal/Persian Farvardin/Pashto Wray). According to the tropical system of astrology, the Sun enters the sign of Aries when it reaches the March equinox, typically on March 21. Because the Earth takes approximately 365.24 days to go around the Sun, the precise time of the equinox is not the same each year, and generally will occur about six hours later from one year to the next until reset by a leap year. The leap day February 29 causes that year's March equinox to fall about eighteen hours earlier compared with the previous year.",
-        "Personality Traits": "Fiery, Passionate, High energy, Domineering, Determined, Confident, Initiators,Courageous.",
-        "Most Compatible": "Leo, Sagittarius, Libra"
+        "Personality_Traits": "Fiery, Passionate, High energy, Domineering, Determined, Confident, Initiators,Courageous.",
+        "Most_Compatible": "Leo, Sagittarius, Libra"
 
     },
     {
@@ -15,8 +15,8 @@
         "Element": "Earth",
         "Symbol": "(♉︎)",
         "Background": "Taurus (Ancient Greek: Ταῦρος, romanized: Taûros,'bull') is the second astrological sign in the modern zodiac. It spans from 30° to 60° of the zodiac. This sign belongs to the Earth element or triplicity, and has a feminine or negative polarity, as well as a fixed modality, quality, or quadruplicity. It is a Venus-ruled sign along with Libra. The Moon is in its exaltation here at exactly 3°. The Sun transits this sign from approximately April 20 until May 20 in western astrology. The sign of Taurus is associated with several myths and bull worship from several ancient cultures. It was the first sign of the zodiac established among the Mesopotamians, who called it 'The Great Bull of Heaven', as it was the constellation through which the Sun rose on the vernal equinox at that time,[3] that is the Early Bronze Age, from about 4000 BC to 1700 BC.",
-        "Personality Traits": "Charming, Stylish, Patient, Dedicated, Relaxed, Content, Honest, A force to be reckoned with",
-        "Most Compatible":"Cancer, Virgo, Scorpio"
+        "Personality_Traits": "Charming, Stylish, Patient, Dedicated, Relaxed, Content, Honest, A force to be reckoned with",
+        "Most_Compatible":"Cancer, Virgo, Scorpio"
 
     },
     {
@@ -25,8 +25,8 @@
         "Element": "Air",
         "Symbol": "(♊︎)",
         "Background": "Gemini (Greek: Δίδυμοι, romanized: Dídymoi, Latin for 'twins') is the third astrological sign in the zodiac. Under the tropical zodiac, the sun transits this sign between about May 21 to June 21.[3] Gemini is represented by the twins, Castor and Pollux,[4] known as the Dioscuri in Greek mythology. It is a positive, mutable sign.In Babylonian astronomy, the stars Pollux and Castor were known as the Great Twins. Their names were Lugal-irra and Meslamta-ea, meaning 'The Mighty King' and 'The One who has arisen from the Underworld'. Both names are titles of Nergal, a major Babylonian god of plague and pestilence, who was king of the underworld.In Greek mythology, Gemini is associated with the myth of Castor and Pollux. Pollux was the son of Zeus, who seduced Leda, while Castor was the son of Tyndareus, the king of Sparta and Leda's husband. When Castor died, because he was a mortal, Pollux begged his father Zeus to give Castor immortality, which was done through uniting them together in the heavens.",
-        "Personality Traits":"Versatile, Vibrant, Insightful, Fascinating, Original, The life of the party, Resourceful, Charming",
-        "Most Compatible":"Libra, Aries, Aquarius"
+        "Personality_Traits":"Versatile, Vibrant, Insightful, Fascinating, Original, The life of the party, Resourceful, Charming",
+        "Most_Compatible":"Libra, Aries, Aquarius"
     },
     {   
          "Sign": "Cancer",
@@ -34,8 +34,8 @@
           "Element": "Water",
          "Symbol": "(♋︎)",
          "Background":"Cancer (Greek: Καρκίνος, romanized: Karkínos, Latin for 'crab') is the fourth astrological sign in the zodiac, originating from the constellation of Cancer. It spans from 90° to 120° celestial longitude. Under the tropical zodiac, the Sun transits this area between approximately June 22 and July 22. In astrology, Cancer is the cardinal sign of the Water trigon, which is made up of Cancer, Pisces, and Scorpio.[3] It is one of the six negative signs, and its ruling planet is the Moon. Though some depictions of Cancer feature a lobster or crayfish, the sign is most often represented by the crab, based on the Karkinos. Cancer's opposite sign is Capricorn.Cancer is the fourth sign of the zodiac, which the sun enters at the summer solstice in the Northern Hemisphere, on approximately June 21.[4] Those who are born from approximately June 21 to July 22 (depending upon the year) are born under Cancer.[2] Individuals born during these dates, depending on which system of astrology they subscribe to, may be called 'Cancerians'. Cancer is a northern sign, and its opposite sign is Capricorn. Cancer is a cardinal sign.",
-        "Personality Traits":"Loyal, Protective, Intuitive, Caring, Sensitive, Homebody",
-        "Most Compatible":"Pisces, Scorpio, Virgo"
+        "Personality_Traits":"Loyal, Protective, Intuitive, Caring, Sensitive, Homebody",
+        "Most_Compatible":"Pisces, Scorpio, Virgo"
 },
 {
          "Sign": "Leo",
@@ -43,8 +43,8 @@
          "Element": "Fire",
          "Symbol": "(♌︎)",
          "Background":"Leo (Greek: Λέων, romanized: Léōn, Latin for 'lion') is the fifth sign of the zodiac. It corresponds to the constellation Leo and comes after Cancer and before Virgo. The traditional Western zodiac associates Leo with the period between about July 23 and August 23, and the sign spans the 120th to 150th degree of celestial longitude. Leo is associated with fire, accompanied by Aries and Sagittarius, and its modality is fixed. The constellation Leo is associated with the mythological Nemean lion. The lion is a very important and prominent symbol in Greek mythology. Egyptians worshipped the constellation, which they referred to as 'Knem', because it was present during the flooding of the Nile River. This event signified plentiful harvests for the upcoming year, and the people interpreted it as a gift from the earth. Ruler of Egypt, Tutankhamun's gold throne features lion heads where the seat and front legs meet, as well as clawed feet at the end of each leg, symbolizing power and royalty",
-        "Personality Traits":"Entertaining, Flamboyant, Vivacious, Passionate, Expressive, Bold, Glamorous, Warm",
-        "Most Compatible":"Aries, Leo, Sagittarius"
+        "Personality_Traits":"Entertaining, Flamboyant, Vivacious, Passionate, Expressive, Bold, Glamorous, Warm",
+        "Most_Compatible":"Aries, Leo, Sagittarius"
 
 },
 {
@@ -53,8 +53,8 @@
          "Element": "Earth",
          "Symbol": "(♍︎)",
           "Background":"Virgo (Greek: Παρθένος, romanized: Parthénos) (Latin for 'virgin' or 'maiden') is the sixth astrological sign in the zodiac. It spans the 150–180th degree of the zodiac. Under the tropical zodiac, the Sun transits this area (on average) between August 23 and September 22.Depending on the system of astrology, individuals born during these dates may be called Virgos or Virgoans. The sign is associated with Astraea. In Greek mythology, Astraea was the last immortal to abandon Earth at the end of the Silver Age, when the gods fled to Olympus – hence the sign's association with Earth.She became the constellation of Virgo. Virgo is one of the three Earth signs, along with Capricorn and Taurus.",
-         "Personality Traits":"Hard-working, Creative, Reliable, Patient, Kind, Persistent",
-         "Most Compatible":"Scorpio, Capricorn, Taurus"
+         "Personality_Traits":"Hard-working, Creative, Reliable, Patient, Kind, Persistent",
+         "Most_Compatible":"Scorpio, Capricorn, Taurus"
 
 },
 {
@@ -63,8 +63,8 @@
          "Element": "Air",
          "Symbol": "(♎︎)",
          "Background":"Libra (Greek: Ζυγός, romanized: Zygós, Latin for 'scales') is the seventh astrological sign in the zodiac. It spans 180°–210° celestial longitude.The Sun transits this sign on average between September 22 and October 23. The symbol of the scales is based on the Scales of Justice held by Themis, the Greek personification of divine law and custom.She became the inspiration for modern depictions of Lady Justice. The ruling planet of Libra is Venus. Libra is the only zodiac sign that is represented by an object; with the other eleven signs represented by either an animal or mythological character.",
-          "Personality Traits": "Balanced, An influencer, Likes a challenge, Inspires harmony, A peacekeeper, Idealistic, A debater, Avoidant of conflict and confrontation",
-          "Most Compatible":"Gemini, Libra, Aquarius"
+          "Personality_Traits": "Balanced, An influencer, Likes a challenge, Inspires harmony, A peacekeeper, Idealistic, A debater, Avoidant of conflict and confrontation",
+          "Most_Compatible":"Gemini, Libra, Aquarius"
 },
 {
          "Sign": "Scorpio",
@@ -72,8 +72,8 @@
          "Element": "Water",
         "Symbol": "(♏)",
         "Background":"(Ancient Greek: Σκορπιός, romanized: Skorpiós, Latin for 'scorpion') is the eighth astrological sign in the zodiac, originating from the constellation of Scorpius. It spans 210–240° ecliptic longitude. Under the tropical zodiac (most commonly used in Western astrology), the Sun transits this sign on average from October 23 to November 21. Depending on which zodiac system one uses, someone born under the influence of Scorpio may be called a Scorpio or a Scorpionic.",
-        "Personality Traits":"Passionate, Brave, Loyal, Charismatic, Organized, Ambitious, Intuitive",
-        "Most Compatible":"Cancer, Pisces, Virgo"
+        "Personality_Traits":"Passionate, Brave, Loyal, Charismatic, Organized, Ambitious, Intuitive",
+        "Most_Compatible":"Cancer, Pisces, Virgo"
 },
 {
 
@@ -82,8 +82,8 @@
         "Element": "Fire",
         "Symbol": "(♐)",
         "Background": "Greek: Τοξότης, romanized: Toxótēs, Latin for 'archer') is the ninth astrological sign, which is associated with the constellation Sagittarius and spans 240–270th degrees of the zodiac. Under the tropical zodiac, the sun transits this sign between approximately November 22 and December 21. Greek mythology associates Sagittarius with the centaur Chiron, who mentored Achilles, a Greek hero of the Trojan War, in archery. Sagittarius, the half human and half horse, is the centaur of mythology, the learned healer whose higher intelligence forms a bridge between Earth and Heaven. Also known as the Archer, Sagittarius is represented by the symbol of a bow and arrow.",
-        "Personality Traits":"Loyal, Protective, Intuitive, Caring, Sensitive, Homebody",
-        "Most Compatible":"Aries, Aquarius,"
+        "Personality_Traits":"Loyal, Protective, Intuitive, Caring, Sensitive, Homebody",
+        "Most_Compatible":"Aries, Aquarius,"
 },
 {
          "Sign": "Capricorn",
@@ -91,8 +91,8 @@
         "Element": "Earth",
         "Symbol": "(♑)",
         "Background": "Capricorn (Greek: Αιγόκερως, romanized: Aigókerōs, Latin for 'horned goat') is the tenth astrological sign in the zodiac out of twelve total zodiac signs, originating from the constellation of Capricornus, the goat. It spans the 270–300th degree of the zodiac, corresponding to celestial longitude. Under the tropical zodiac, the sun transits this area from about December 22 to January 19.[2] In astrology, Capricorn is considered an earth sign, negative sign, and one of the four cardinal signs. Capricorn is said to be ruled by the planet Saturn. There appears to be a connection between traditional characterizations of Capricorn as a sea goat and the Sumerian god of wisdom and waters,[5] who also had the head and upper body of a goat and the lower body and tail of a fish. Later known as Ea in Akkadian and Babylonian mythology, Enki was the god of intelligence (gestú, literally 'ear'), creation, crafts; magic; water, seawater and lake water (a, aba, ab).",
-        "Personality Traits":"Hard-working, Ambitious, Responsible, Practical, Sensitive, Over achivers, Persistent",
-        "Most Compatible":"Capricorn, Taurus, Pisces"
+        "Personality_Traits":"Hard-working, Ambitious, Responsible, Practical, Sensitive, Over achivers, Persistent",
+        "Most_Compatible":"Capricorn, Taurus, Pisces"
 },
 {
         "Sign": "Aquarius",
@@ -100,8 +100,8 @@
         "Element": "Air",
         "Symbol": "(♒)",
         "Background": "Aquarius (Greek: Υδροχόος, romanized: Ydrochóos, Latin for 'water-bearer') is the eleventh astrological sign in the zodiac, originating from the constellation Aquarius. Under the tropical zodiac, the Sun is in the Aquarius sign between about January 20 and about February 18. The water carrier represented by the zodiacal constellation Aquarius is Ganymede, a beautiful Phrygian youth. Ganymede was the son of Tros, king of Troy (according to Lucian, he was also the son of Dardanus). While tending to his father's flocks on Mount Ida, Ganymede was spotted by Zeus. The king of gods fell in love with him and flew down to the mountain in the form of a large bird, whisking Ganymede away to the heavens. Ever since, The boy has served as cupbearer to the gods. Ovid has Orpheus sing the tale.",
-        "Personality Traits":"Visionary, Intelligent, Original, Progressive thinkers, Unpredictable, Creative", 
-         "Most Compatible":"Gemini, Libra, Aquarius, Sagittarius"
+        "Personality_Traits":"Visionary, Intelligent, Original, Progressive thinkers, Unpredictable, Creative", 
+         "Most_Compatible":"Gemini, Libra, Aquarius, Sagittarius"
 },
 {
         "Sign": "Pisces",
@@ -109,8 +109,8 @@
         "Element": "Water",
         "Symbol": "(♓)",
         "Background": "Pisces (Greek: Ἰχθύες Ikhthyes, Latin for 'fishes') is the twelfth and final astrological sign in the zodiac. It is a negative, mutable sign. It spans 330° to 360° of celestial longitude. Under the tropical zodiac, the sun transits this area between February 19 and March 20. In classical interpretations, the symbol of the fish is derived from the ichthyocentaurs, who aided Aphrodite when she was born from the sea. According to some tropical astrologers, the current astrological age is the Age of Pisces,[5] while others maintain that currently it is the Age of Aquarius.",
-        "Personality Traits":"Compassionate, artistic, deeply emotional, especially empathic, at least a little bit psychic, and often inclined to throw themselves into caring for others at all costs",
-        "Most Compatible":"Taurus, Scorpio, Cancer, Capricorn"
+        "Personality_Traits":"Compassionate, artistic, deeply emotional, especially empathic, at least a little bit psychic, and often inclined to throw themselves into caring for others at all costs",
+        "Most_Compatible":"Taurus, Scorpio, Cancer, Capricorn"
 }
 
 ]
