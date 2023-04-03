@@ -17,14 +17,8 @@ const UserSchema = new Schema({
   password: {
     type: String,
     required: true,
-    minlength: 5,
-  },
-  skills: [
-    {
-      type: String,
-      trim: true,
-    },
-  ],
+    minlength: 3,
+  }
 });
 
 // set up pre-save middleware to create password
