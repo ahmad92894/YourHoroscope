@@ -19,31 +19,17 @@ const NavBar = () => {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">Sign Up</a>
-
-            <a className="nav-link active" aria-current="page" href="#">Home</a></li>
-          <li className="nav-item">
-            <a className="nav-link" href="client/src/pages/Zodiacmain.js">Login</a>
           </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">Sign Up</a>
-          </li>
-          <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown link
-            </a>
-            <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a className="dropdown-item" href="#">Home</a></li>
-              <li><a className="dropdown-item" href="#">Sign Up</a></li>
-              <li><a className="dropdown-item" href="#">Login</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+          <ul/>
+          </ul>
     </div>
-  </nav>
+    </div>
+    <ul/>
+    </nav>
   </div>
-  )
-}
+  )}
+
+
 
 
 
