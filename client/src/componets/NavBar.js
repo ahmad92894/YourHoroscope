@@ -12,14 +12,14 @@ const NavBar = () => {
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
+            <a className="nav-link active" aria-current="page" href="#">Home</a></li>
           <li className="nav-item">
             <a className="nav-link" href="client/src/pages/Zodiacmain.js">Login</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">Sign Up</a>
           </li>
+
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Dropdown link
@@ -38,4 +38,7 @@ const NavBar = () => {
   )
 }
 
+
+
 export default NavBar
+
