@@ -1,5 +1,5 @@
 const { AuthenticationError } = require('apollo-server-express');
-const { User,Thought } = require('../models');
+const { User,Thought, Horoscope } = require('../models');
 const { signToken } = require('../utils/auth');
 
 const resolvers = {
@@ -24,6 +24,10 @@ const resolvers = {
       }
       throw new AuthenticationError('You need to be logged in!');
     },
+    horoscope: async () => {
+      return Horoscope.find();
+    },
+    
   },
 
   Mutation: {
