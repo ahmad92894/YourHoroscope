@@ -5,7 +5,6 @@ function Aries() {
     return (
 
 
-
         <div>
             <h1>Aries</h1>
         </div>

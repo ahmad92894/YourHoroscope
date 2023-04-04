@@ -1,16 +1,17 @@
 import React from 'react';
+import { useQuery } from '@apollo/client';
 
-<h1>Aquarius</h1>
 function Aquarius() {
     return (
 
 
-
+<>
         <div>
             <h1>Aquarius</h1>
 
-            { }
+            
         </div>
+        </>
     )
 }
 
