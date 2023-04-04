@@ -11,57 +11,70 @@ import sagittarius from '../img/sagitt.png';
 import scorpio from '../img/scorpio.png';
 import taurus from '../img/taurus.png';
 import virgo from '../img/virgo.png';
+import { Link } from 'react-router-dom';
 
 const Zodiacmain = () => {
     return (
 <div className="container text-center">
   <div className="row align-items-end">
     <div className="col">
-    <a><img src={aqua} alt="aqua"/></a>
+    <Link to="/aquarius">
+    <img src={aqua} alt="aqua"/></Link>
       Aqarius
     </div>
     <div className="col">
-    <a><img src={aries} alt="aries"/></a>
+    <Link to="/aries">
+    <img src={aries} alt="aries"/></Link>
       Aries
     </div>
     <div className="col">
-    <a><img src={cancer} alt="cancer"/></a>
+    <Link to="/cancer">
+    <img src={cancer} alt="cancer"/></Link>
         Cancer
     </div>
     <div className="col">
-    <a><img src={capricorn} alt="capricorn"/></a>    
+    <Link to="/capricorn">
+    <img src={capricorn} alt="capricorn"/></Link>   
         Capricorn
     </div>
     <div className="col">
-    <a><img src={gemini} alt="gemini"/></a>    
+    <Link to="/gemini">
+    <img src={gemini} alt="gemini"/></Link>  
         Gemini
     </div>
     <div className="col">
-    <a><img src={leo} alt="leo"/></a>
+    <Link to="/leo">
+    <img src={leo} alt="leo"/></Link>
         Leo
     </div>
     <div className="col">
-    <a><img src={libra} alt="libra"/></a>    
+    <Link to="/libra">
+    <img src={libra} alt="libra"/></Link>  
         Libra
     </div>
     <div className="col">
-    <a><img src={pisces} alt="pisces"/></a>
+    <Link to="/pisces">
+    <img src={pisces} alt="pisces"/></Link>
         Pisces
     </div>
     <div className="col">
-    <a><img src={sagittarius} alt="sagittarius"/></a>"    
+    <Link to="/sagittarius">
+    <img src={sagittarius} alt="sagittarius"/></Link>    
         Sagittarius
     </div>
     <div className="col">
-    <a><img src={scorpio} alt="scorpio"/></a>
+    <Link to="/scorpio">
+    <img src={scorpio} alt="scorpio"/></Link>
         Scorpio
     </div>
     <div className="col">
-    <a><img src={taurus} alt="taurus"/></a>
+    <Link to="/taurus">
+    <img src={taurus} alt="taurus"/></Link>
         Taurus
     </div>
     <div className="col">
-    <a><img src={virgo} alt="virgo"/></a>
+    <Link to="/virgo">
+    <img src={virgo} alt="virgo"/></Link>
       Virgo
     </div>
   </div>
