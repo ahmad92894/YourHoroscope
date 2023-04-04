@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import NavBar from './componets/NavBar';
 import Footer from './componets/Footer';
 import './App.css';
-// import Aquarius from './pages/Aquarius';
+ import Aquarius from './pages/Aquarius';
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
 
     <div1>
       <NavBar />
-      {/* <Aquarius /> */}
+      <Aquarius />
       <Footer/>
    
     
