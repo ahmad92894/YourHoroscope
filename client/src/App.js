@@ -33,6 +33,8 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <Router>
+        <div className='bg-dark color-white'>
+  
         <div className="NavBar">
           <NavBar />
           <div className="container">
@@ -58,6 +60,7 @@ function App() {
             </Routes>
           </div>
           <Footer />
+        </div>
         </div>
       </Router>
     </ApolloProvider>
