@@ -1,31 +1,31 @@
-import React from 'react';
-import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from "react";
+import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import NavBar from './componets/NavBar';
-import Footer from './componets/Footer';
-import './App.css';
-import Forum from './pages/Forum';
-import Home from './pages/Home';
-import Login from './pages/Login';
-import Profile from './pages/Profile';
-import Zodiacmain from './pages/Zodiacmain';
+import NavBar from "./componets/NavBar";
+import Footer from "./componets/Footer";
+import "./App.css";
+import Forum from "./pages/Forum";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Profile from "./pages/Profile";
+import Zodiacmain from "./pages/Zodiacmain";
 
-import Aquarius from './pages/Aquarius';
-import Aries from './pages/Aries';
-import Cancer from './pages/Cancer';
-import Capricorn from './pages/Capricorn';
-import Gemini from './pages/Gemini';
-import Leo from './pages/Leo';
-import Libra from './pages/Libra';
-import Pisces from './pages/Pisces';
-import Sagittarius from './pages/Sagittarius';
-import Scorpio from './pages/Scorpio';
-import Taurus from './pages/Taurus';
-import Virgo from './pages/Virgo';
+import Aquarius from "./pages/Aquarius";
+import Aries from "./pages/Aries";
+import Cancer from "./pages/Cancer";
+import Capricorn from "./pages/Capricorn";
+import Gemini from "./pages/Gemini";
+import Leo from "./pages/Leo";
+import Libra from "./pages/Libra";
+import Pisces from "./pages/Pisces";
+import Sagittarius from "./pages/Sagittarius";
+import Scorpio from "./pages/Scorpio";
+import Taurus from "./pages/Taurus";
+import Virgo from "./pages/Virgo";
 
 const client = new ApolloClient({
-  uri: '/graphql',
+  uri: "/graphql",
   cache: new InMemoryCache(),
 });
 
@@ -50,7 +50,7 @@ function App() {
               <Route path="/gemini" element={<Gemini />} />
               <Route path="/leo" element={<Leo />} />
               <Route path="/libra" element={<Libra />} />
-              <Route path="/pisces" element={<Pisces/>} />
+              <Route path="/pisces" element={<Pisces />} />
               <Route path="/sagittarius" element={<Sagittarius />} />
               <Route path="/scorpio" element={<Scorpio />} />
               <Route path="/taurus" element={<Taurus />} />
