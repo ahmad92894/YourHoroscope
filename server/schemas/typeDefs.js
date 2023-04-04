@@ -31,8 +31,8 @@ type Horoscope {
   Element: String
   Symbol: String
   Background: String
-  Personality_Traits:
-  Most_Compatible:
+  Personality_Traits: String
+  Most_Compatible: String
 }
 
 type Auth {
@@ -46,7 +46,7 @@ type Query {
   thoughts(username: String): [Thought]
   thought(thoughtId: ID!): Thought
   me: User
-  horoscope: Horoscope
+  horoscope: [Horoscope]
 }
 
 type Mutation {
