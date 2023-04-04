@@ -1,21 +1,21 @@
 [
     {
-        "name": "Jack Kelly",
+        "username": "Jack Kelly",
         "email": "JK@gmail.com",
         "password": "PTSD"
     },
     {
-        "name": "Ahmad Bustami",
+        "username": "Ahmad Bustami",
         "email": "AB@gmail.com",
         "password": "PTSD"
     },
     {
-        "name": "Tim Smith",
+        "username": "Tim Smith",
         "email": "TS@gmail.com",
         "password": "PTSD"
     },
     {
-        "name": "Kanika Asthana",
+        "username": "Kanika Asthana",
         "email": "KA@gmail.com",
         "password": "PTSD"
     }
