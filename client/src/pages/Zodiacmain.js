@@ -7,7 +7,7 @@ import gemini from '../img/gemini.png';
 import leo from '../img/leo.png';
 import libra from '../img/libra.png';
 import pisces from '../img/pisces.png';
-import sagittarius from '../img/sagittarius.png';
+import sagittarius from '../img/sagitt.png';
 import scorpio from '../img/scorpio.png';
 import taurus from '../img/taurus.png';
 import virgo from '../img/virgo.png';
