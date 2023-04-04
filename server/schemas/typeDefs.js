@@ -6,7 +6,7 @@ type User {
   username: String
   email: String
   password: String
-  thoughts: [Thought]! 
+  thoughts: [Thought] 
 }
 
 type Thought {
