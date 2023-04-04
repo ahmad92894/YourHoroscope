@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import NavBar from './componets/NavBar';
 import './App.css';
 
 function App() {
