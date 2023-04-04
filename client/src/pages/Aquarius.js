@@ -8,6 +8,8 @@ function Aquarius() {
 
         <div>
             <h1>Aquarius</h1>
+
+            { }
         </div>
     )
 }
