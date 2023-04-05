@@ -8,7 +8,7 @@ export const SignUp = () => {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [navigate, setNavigate] = useState(false);
+  //const [navigate, setNavigate] = useState(false);
   const [addUser, { error, data }] = useMutation(ADD_USER);
   
   const submit = async (e) => {
@@ -27,9 +27,9 @@ export const SignUp = () => {
     //setNavigate(true);
   };
 
-  if (navigate) {
-    return <Navigate to="/" />;
-  }
+  // if (navigate) {
+  //   return <Navigate to="/" />;
+  // }
   return (
     <main className="form-signin w-100 m-auto">
       <form onSubmit={submit}>
