@@ -11,9 +11,9 @@ export const SignUp = () => {
   const submit = async e => {
     e.preventDefault();
 
-    await axios.post(url, '/signup', data, {
-      username, email, password
-    });
+    // await axios.post(url, '/signup', data, {
+    //   username, email, password
+    // });
 
     setNavigate(true);
 
