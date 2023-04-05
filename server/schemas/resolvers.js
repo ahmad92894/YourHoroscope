@@ -24,8 +24,10 @@ const resolvers = {
       }
       throw new AuthenticationError('You need to be logged in!');
     },
-    horoscope: async () => {
-      return Horoscope.find();
+    horoscope: async (parent,args) => {
+      return Horoscope.findOne(
+      {Sign: args.Sign}
+      );
     },
     
   },

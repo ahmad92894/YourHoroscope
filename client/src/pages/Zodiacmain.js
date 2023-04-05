@@ -43,7 +43,7 @@ const Zodiacmain = () => {
         Gemini
     </div>
     <div className="col">
-    <Link to="/leo">
+    <Link to="/Leo">
     <img src={leo} alt="leo"/></Link>
         Leo
     </div>
