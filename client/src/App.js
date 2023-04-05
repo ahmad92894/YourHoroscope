@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import "./App.css";
 import Forum from "./pages/Forum";
 import Home from "./pages/Home";
-import Login from "./pages/Login";
+import {SignUp} from "./components/SignUp";
 import Profile from "./pages/Profile";
 import Zodiacmain from "./pages/Zodiacmain";
 
@@ -39,7 +39,7 @@ function App() {
             <Routes>
               <Route path="/forum" element={<Forum />} />
               <Route path="/" element={<Home />} />
-              <Route path="/login" element={<Login />} />
+              <Route path="/signup" element={<SignUp />} />
               <Route path="/profile" element={<Profile />} />
               <Route path="/zodiacmain" element={<Zodiacmain />} />
 

@@ -15,10 +15,10 @@ const NavBar = () => {
           <li><Link to="/" className="nav-item">
             <a className="nav-link active" aria-current="page" href="#">Profile</a></Link>
           </li>
-          <li><Link to="/Login" className="nav-item">
+          <li><Link to="/login" className="nav-item">
             <a className="nav-link" href="#">Login</a></Link>
           </li>
-          <li><Link to="/Sign up" className="nav-item">
+          <li><Link to="/signup" className="nav-item">
             <a className="nav-link" href="#">Sign Up</a></Link>
           </li>
           <ul/>
