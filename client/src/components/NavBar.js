@@ -14,15 +14,19 @@ const NavBar = () => {
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav">
           <li><Link to="/zodiacmain" className="nav-item">
-             Profile</Link>
+            <a className="nav-link" href="#">Profile</a></Link>
           </li>
           <li><Link to="/login" className="nav-item">
-            Login</Link>
+            <a className="nav-link" href="#">Login</a></Link>
+    
           </li>
           <li><Link to="/signup" className="nav-item">
                 <a className="nav-link" href="#">Sign Up</a></Link>
               </li>
-              <li className="nav-item"><a className="nav-link" href="/" onClick={() => Auth.logout()} >Logout</a></li>
+          <li><Link to="/forum" className="nav-item">
+              <a className="nav-link" href="#">Forum</a></Link>
+              </li>
+              <li className="nav-item"><a className="nav-link" href="/" onClick={() => Auth.logout()} >logout</a></li>
           <ul/>
           </ul>
     </div>
