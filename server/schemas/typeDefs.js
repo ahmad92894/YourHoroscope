@@ -46,7 +46,7 @@ type Query {
   thoughts(username: String): [Thought]
   thought(thoughtId: ID!): Thought
   me: User
-  horoscope: [Horoscope]
+  horoscope(Sign:String!): Horoscope
 }
 
 type Mutation {

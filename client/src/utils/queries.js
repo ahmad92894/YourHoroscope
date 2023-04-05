@@ -58,3 +58,16 @@ export const QUERY_ME = gql`
     }
   }
 `;
+export const QUERY_SINGLE_HOROSCOPE = gql`
+query Query ($sign: String!) {
+  horoscope(Sign: $sign) {
+    _id
+    Sign
+    Birthday
+    Element
+    Symbol
+    Background
+    Personality_Traits
+    Most_Compatible
+  }
+}`
