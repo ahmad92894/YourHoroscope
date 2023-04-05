@@ -18,27 +18,27 @@ const Zodiacmain = () => {
 <div className="container text-center">
   <div className="row align-items-end">
     <div className="col">
-    <Link to="/aquarius">
+    <Link to="/Aquarius">
     <img src={aqua} alt="aqua"/></Link>
       Aqarius
     </div>
     <div className="col">
-    <Link to="/aries">
+    <Link to="/Aries">
     <img src={aries} alt="aries"/></Link>
       Aries
     </div>
     <div className="col">
-    <Link to="/cancer">
+    <Link to="/Cancer">
     <img src={cancer} alt="cancer"/></Link>
         Cancer
     </div>
     <div className="col">
-    <Link to="/capricorn">
+    <Link to="/Capricorn">
     <img src={capricorn} alt="capricorn"/></Link>   
         Capricorn
     </div>
     <div className="col">
-    <Link to="/gemini">
+    <Link to="/Gemini">
     <img src={gemini} alt="gemini"/></Link>  
         Gemini
     </div>
@@ -48,32 +48,32 @@ const Zodiacmain = () => {
         Leo
     </div>
     <div className="col">
-    <Link to="/libra">
+    <Link to="/Libra">
     <img src={libra} alt="libra"/></Link>  
         Libra
     </div>
     <div className="col">
-    <Link to="/pisces">
+    <Link to="/Pisces">
     <img src={pisces} alt="pisces"/></Link>
         Pisces
     </div>
     <div className="col">
-    <Link to="/sagittarius">
+    <Link to="/Sagittarius">
     <img src={sagittarius} alt="sagittarius"/></Link>    
         Sagittarius
     </div>
     <div className="col">
-    <Link to="/scorpio">
+    <Link to="/Scorpio">
     <img src={scorpio} alt="scorpio"/></Link>
         Scorpio
     </div>
     <div className="col">
-    <Link to="/taurus">
+    <Link to="/Taurus">
     <img src={taurus} alt="taurus"/></Link>
         Taurus
     </div>
     <div className="col">
-    <Link to="/virgo">
+    <Link to="/Virgo">
     <img src={virgo} alt="virgo"/></Link>
       Virgo
     </div>
