@@ -34,11 +34,13 @@ function App() {
                 <Route path="/login" element={<Login />} />
                 <Route path="/profile" element={<Profile />} />
                 <Route path="/zodiacmain" element={<Zodiacmain />} />
+                
 
              
               <Route path="/:zodiacsign" element={<ZodiacSign />} />
             </Routes>
           </div>
+          <Footer />
         </div>
         </div>
       </Router>
