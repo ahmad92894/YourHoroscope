@@ -25,6 +25,8 @@
   "homepage": "https://github.com/ahmad92894/YourHoroscope#readme",
   "dependencies": {
     "concurrently": "^8.0.1",
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "react-motion": "^0.5.2",
+    "resize-optimize-images": "^1.1.2"
   }
 }
