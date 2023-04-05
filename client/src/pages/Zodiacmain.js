@@ -79,6 +79,7 @@ const Zodiacmain = () => {
     </div>
   </div>
 </div>
+
     )
 }
 export default Zodiacmain;
