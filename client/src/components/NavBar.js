@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Auth from "../../src/utils/auth";
 
 const NavBar = () => {
   return (
@@ -12,15 +13,16 @@ const NavBar = () => {
       </button>
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav">
-          <li><Link to="/" className="nav-item">
+          <li><Link to="zodiacmain" className="nav-item">
             <a className="nav-link active" aria-current="page" href="#">Profile</a></Link>
           </li>
           <li><Link to="/login" className="nav-item">
             <a className="nav-link" href="#">Login</a></Link>
           </li>
           <li><Link to="/signup" className="nav-item">
-            <a className="nav-link" href="#">Sign Up</a></Link>
-          </li>
+                <a className="nav-link" href="#">Sign Up</a></Link>
+              </li>
+              <li className="nav-item"><a className="nav-link" href="/" onClick={() => Auth.logout()} >logout</a></li>
           <ul/>
           </ul>
     </div>

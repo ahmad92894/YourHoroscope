@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Navigate } from "react-router-dom";
+//import { Navigate } from "react-router-dom";
 import { useMutation } from "@apollo/client"
 import { ADD_USER } from "../utils/mutations"
 import Auth from "../utils/auth"
@@ -8,7 +8,7 @@ export const SignUp = () => {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [navigate, setNavigate] = useState(false);
+  //const [navigate, setNavigate] = useState(false);
   const [addUser, { error, data }] = useMutation(ADD_USER);
   
   const submit = async (e) => {
@@ -27,26 +27,14 @@ export const SignUp = () => {
     //setNavigate(true);
   };
 
-  if (navigate) {
-    return <Navigate to="/" />;
-  }
+  //if (navigate) {
+    //return <Navigate to="/" />;
+//}
   return (
     <main className="form-signin w-100 m-auto">
       <form onSubmit={submit}>
-        <h1 className="h3 mb-3 fw-normal">Please sign in</h1>
+        <h1 className="h3 mb-3 fw-normal">Please sign up</h1>
 
-        <div className="form-floating">
-          <input
-            type="email"
-            name="email"
-            value={email}
-            className="form-control"
-            id="floatingInput"
-            placeholder="name@example.com"
-            onChange={(e) => setEmail(e.target.value)}
-          />
-          <label for="floatingInput">Email address</label>
-        </div>
         <div className="form-floating">
           <input
             type="text"
@@ -58,6 +46,18 @@ export const SignUp = () => {
             onChange={(e) => setUsername(e.target.value)}
           />
           <label for="floatingInput">Username</label>
+        </div>
+        <div className="form-floating">
+          <input
+            type="email"
+            name="email"
+            value={email}
+            className="form-control"
+            id="floatingInput"
+            placeholder="name@example.com"
+            onChange={(e) => setEmail(e.target.value)}
+          />
+          <label for="floatingInput">Email address</label>
         </div>
         <div className="form-floating">
           <input
@@ -73,7 +73,7 @@ export const SignUp = () => {
         </div>
 
         <button className="w-100 btn btn-lg btn-primary" type="submit">
-          Sign in
+          Sign Up
         </button>
       </form>
     </main>
