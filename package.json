@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/ahmad92894/YourHoroscope#readme",
   "dependencies": {
+    "concurrently": "^8.0.1",
     "nodemon": "^2.0.22"
   }
 }
