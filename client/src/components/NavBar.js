@@ -22,7 +22,7 @@ const NavBar = () => {
           <li><Link to="/signup" className="nav-item">
                 <a className="nav-link" href="#">Sign Up</a></Link>
               </li>
-              <li className="nav-item"><a className="nav-link" href="/" onClick={() => Auth.logout()} >logout</a></li>
+              <li className="nav-item"><a className="nav-link" href="/" onClick={() => Auth.logout()} >Logout</a></li>
           <ul/>
           </ul>
     </div>
