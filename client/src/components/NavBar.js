@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Auth from "../../src/utils/auth";
 
 const NavBar = () => {
   return (
@@ -19,8 +20,9 @@ const NavBar = () => {
             Login</Link>
           </li>
           <li><Link to="/signup" className="nav-item">
-           Sign Up</Link>
-          </li>
+                <a className="nav-link" href="#">Sign Up</a></Link>
+              </li>
+              <li className="nav-item"><a className="nav-link" href="/" onClick={() => Auth.logout()} >logout</a></li>
           <ul/>
           </ul>
     </div>
