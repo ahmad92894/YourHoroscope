@@ -7,7 +7,13 @@ import Footer from "./components/Footer";
 import "./App.css";
 import Forum from "./pages/Forum";
 import Home from "./pages/Home";
+<<<<<<< HEAD
+import { SignUp } from "./components/SignUp";
+import { Login } from "./components/Login";
+=======
+import { Login } from "./components/Login";
 import {SignUp} from "./components/SignUp";
+>>>>>>> origin/main
 import Profile from "./pages/Profile";
 import Zodiacmain from "./pages/Zodiacmain";
 
@@ -33,6 +39,35 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <Router>
+<<<<<<< HEAD
+        <div className="bg-dark color-white">
+          <div className="NavBar">
+            <NavBar />
+            <div className="container">
+              <Routes>
+                <Route path="/forum" element={<Forum />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/signup" element={<SignUp />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/profile" element={<Profile />} />
+                <Route path="/zodiacmain" element={<Zodiacmain />} />
+
+                <Route path="/aquarius" element={<Aquarius />} />
+                <Route path="/aries" element={<Aries />} />
+                <Route path="/cancer" element={<Cancer />} />
+                <Route path="/capricorn" element={<Capricorn />} />
+                <Route path="/gemini" element={<Gemini />} />
+                <Route path="/leo" element={<Leo />} />
+                <Route path="/libra" element={<Libra />} />
+                <Route path="/pisces" element={<Pisces />} />
+                <Route path="/sagittarius" element={<Sagittarius />} />
+                <Route path="/scorpio" element={<Scorpio />} />
+                <Route path="/taurus" element={<Taurus />} />
+                <Route path="/virgo" element={<Virgo />} />
+              </Routes>
+            </div>
+            <Footer />
+=======
         <div className='bg-dark color-white'>
   
         <div className="NavBar">
@@ -41,6 +76,7 @@ function App() {
             <Routes>
               <Route path="/forum" element={<Forum />} />
               <Route path="/" element={<Home />} />
+              {/* <Route path="/login" element={<Login />} /> */}
               <Route path="/signup" element={<SignUp />} />
               <Route path="/profile" element={<Profile />} />
               <Route path="/zodiacmain" element={<Zodiacmain />} />
@@ -50,7 +86,7 @@ function App() {
               <Route path="/cancer" element={<Cancer />} />
               <Route path="/capricorn" element={<Capricorn />} />
               <Route path="/gemini" element={<Gemini />} />
-              <Route path="/leo" element={<Leo />} />
+              <Route path="/Leo" element={<Leo />} />
               <Route path="/libra" element={<Libra />} />
               <Route path="/pisces" element={<Pisces />} />
               <Route path="/sagittarius" element={<Sagittarius />} />
@@ -58,9 +94,8 @@ function App() {
               <Route path="/taurus" element={<Taurus />} />
               <Route path="/virgo" element={<Virgo />} />
             </Routes>
+>>>>>>> origin/main
           </div>
-          <Footer />
-        </div>
         </div>
       </Router>
     </ApolloProvider>
