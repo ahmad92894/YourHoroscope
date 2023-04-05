@@ -1,6 +1,6 @@
 import React from 'react';
-import ThoughtForm from '../components/ThoughtForm';
-import ThoughtList from '../components/ThoughtList';
+// import ThoughtForm from '../components/ThoughtForm';
+// import ThoughtList from '../components/ThoughtList';
 
 
 function Forum() {
@@ -8,9 +8,9 @@ function Forum() {
 
 
         <div>
-            <ThoughtForm />
+            {/* <ThoughtForm /> */}
             <h1>forum</h1>
-            <ThoughtList />
+            {/* <ThoughtList /> */}
         </div>
     )
 }
