@@ -2,9 +2,11 @@ import { useEffect } from "react";
 // import axios from "axios";
 import { Navigate } from "react-router-dom";
 
+
 export const Home = () => {
   const [username, setUsername] = useState("");
   const [navigate, setNavigate] = useState(false);
+  
 
   useEffect(() => {
     (async () => {
@@ -28,6 +30,7 @@ export const Home = () => {
   //   return <Navigate to="/" />;
   // }
   return (
+
     <div className="form-signin mt-5 text-center">
       <h3>Hello {username}</h3>
       <a href="javascript:void(0)" className="btn btn-lg btn-primary">
