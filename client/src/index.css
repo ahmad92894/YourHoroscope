@@ -1,16 +1,19 @@
+
+
+
 body {
+  
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Zeyada', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color : whitesmoke
+  color : rgb(248, 245, 245)
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Zeyada', cursive;
 
 
 }
