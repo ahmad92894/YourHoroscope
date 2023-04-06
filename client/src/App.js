@@ -1,7 +1,12 @@
 import React, { useState } from "react";
-import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
+import {
+  ApolloClient,
+  InMemoryCache,
+  ApolloProvider,
+  createHttpLink,
+} from "@apollo/client";
+import { setContext } from "@apollo/client/link/context";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ProtectedRoute from "./components/ProtectedRoute";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import "./App.css";
@@ -14,53 +19,28 @@ import Zodiacmain from "./pages/Zodiacmain";
 
 import ZodiacSign from "./pages/ZodiacSign";
 
-const client = new ApolloClient({
+// Construct our main GraphQL API endpoint
+const httpLink = createHttpLink({
   uri: "/graphql",
-  cache: new InMemoryCache(),
 });
 
-// function Button() {
-//   const [isLoggedIn, setIsLoggedIn] = useState(null);
-//   const LogIn = () => {
-//     setIsLoggedIn(true);
-//   };
-//   const LogOut = () => {
-//     setIsLoggedIn(false);
-//   };
-//   return (
-    //<BrowserRouter>
-     // {/* <NavBar />
-      // {isLoggedIn ? (
-      //   <button onClick={LogOut}>Logout</button>
-      // ) : (
-      //   <button onClick={LogIn}>Login</button>
-      // )}
-      // <Routes>{/* Add routes here *///}</Routes>
-      // <div>
-      //        
-      //   <Navbar />
-      //        
-      //   {isLoggedIn ? (
-      //     <button onClick={logOut}>Logout</button>
-      //   ) : (
-      //     <button onClick={logIn}>Login</button>
-      //   )} */}
-    //     <Routes>
-    //       <Route path="/" element={<Home />} />
-    //       <Route
-    //         path="/profile"
-    //         element={
-    //           <Protected isLoggedIn={isLoggedIn}>
-    //             <Profile />
-    //           </Protected>
-    //         }
-    //       />
-    //       <Route path="/about" element={<About />} />
-    //     </Routes>
-    //   </div>
-    // </BrowserRouter>
-  //);
-//}
+// Construct request middleware that will attach the JWT token to every request as an `authorization` header
+const authLink = setContext((_, { headers }) => {
+  // get the authentication token from local storage if it exists
+  const token = localStorage.getItem("id_token");
+  // return the headers to the context so httpLink can read them
+  return {
+    headers: {
+      ...headers,
+      authorization: token ? `Bearer ${token}` : "",
+    },
+  };
+});
+const client = new ApolloClient({
+  // Set up our client to execute the `authLink` middleware prior to making the request to our GraphQL API
+  link: authLink.concat(httpLink),
+  cache: new InMemoryCache(),
+});
 
 function App() {
   return (
@@ -71,17 +51,13 @@ function App() {
             <NavBar />
             <div className="container">
               <Routes>
-                <Route exact path="/login" component={Login} />
-                <ProtectedRoute path="/" component={Zodiacmain}>
-                  <Zodiacmain />
-                </ProtectedRoute>
                 <Route path="/" element={<Home />} />
                 <Route path="/forum" element={<Forum />} />
                 <Route path="/signup" element={<SignUp />} />
-                {/* <Route path="/login" element={<Login />} /> */}
+                <Route path="/login" element={<Login />} />
                 <Route path="/profile" element={<Profile />} />
-                <Route path="/zodiacmain" element={<Zodiacmain />} />
-                <Route path="/:zodiacsign" element={<ZodiacSign />} />
+                <Route path="/zodiac" element={<Zodiacmain />} />
+                <Route path="/zodiac/:sign" element={<ZodiacSign />} />
               </Routes>
             </div>
             <Footer />
@@ -93,4 +69,3 @@ function App() {
 }
 
 export default App;
-

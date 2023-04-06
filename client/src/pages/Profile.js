@@ -1,7 +1,12 @@
 import React from 'react';
+import Auth from "../utils/auth";
+import { Navigate } from "react-router-dom";
 
 
 function Profile() {
+    if (!Auth.loggedIn()) {
+      return <Navigate to="/login" />;
+    }
     return (
 
 
