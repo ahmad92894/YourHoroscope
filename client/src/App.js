@@ -17,6 +17,7 @@ import { Login } from "./components/Login";
 import Profile from "./pages/Profile";
 import Zodiacmain from "./pages/Zodiacmain";
 import ZodiacSign from "./pages/ZodiacSign";
+import Forum from "./pages/Forum";
 // import ThoughtForm from "./components/ThoughtForm";
 // import ThoughtList from "./components/ThoughtList";
 
