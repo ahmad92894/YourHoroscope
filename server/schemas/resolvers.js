@@ -14,9 +14,9 @@ const resolvers = {
       const params = username ? { username } : {};
       return await Thought.find(params).sort({ createdAt: -1 });
     },
-    thought: async (parent, { thoughtId }) => {
-      return await Thought.findOne({ _id: thoughtId });
-    },
+    // thought: async (parent, { thoughtId }) => {
+    //   return await Thought.findOne({ _id: thoughtId });
+    // },
     me: async (parent, args, context) => {
       if (context.user) {
         return await User.findOne({ _id: context.user._id }).populate('thoughts');
