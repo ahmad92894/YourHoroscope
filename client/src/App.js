@@ -10,14 +10,15 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import "./App.css";
-import Forum from "./pages/Forum";
+
 import Home from "./pages/Home";
 import { SignUp } from "./components/SignUp";
 import { Login } from "./components/Login";
 import Profile from "./pages/Profile";
 import Zodiacmain from "./pages/Zodiacmain";
-
 import ZodiacSign from "./pages/ZodiacSign";
+// import ThoughtForm from "./components/ThoughtForm";
+// import ThoughtList from "./components/ThoughtList";
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
@@ -62,6 +63,7 @@ function App() {
             </div>
             <Footer />
           </div>
+          <Footer />
         </div>
       </BrowserRouter>
     </ApolloProvider>

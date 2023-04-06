@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import Auth from "../../src/utils/auth";
+import logo from '../img/logo.png';
 
 const NavBar = () => {
   return (
