@@ -65,5 +65,6 @@ query horoscope($sign: String!) {
     background
     personality_traits
     most_compatible
+    todays_horoscope
   }
 }`

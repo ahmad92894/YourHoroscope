@@ -21,6 +21,9 @@ const HoroSchema = new Schema({
     },
     most_compatible: {
         type: String
+    },
+    todays_horoscope: {
+        type: String
     }
 });
 const Horoscope = model('Horoscope', HoroSchema);
