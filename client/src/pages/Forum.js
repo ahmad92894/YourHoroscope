@@ -8,6 +8,8 @@ function Forum() {
         <div>
             <h1>forum</h1>
         </div>
+
+        
     )
 }
 

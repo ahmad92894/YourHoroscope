@@ -17,12 +17,12 @@ const Zodiacmain = () => {
     return (
 <div className="container text-center">
   <div className="row align-items-end">
-    <div className="col">
+    <div className="col pics">
     <Link to="/Aquarius">
     <img src={aqua} alt="aqua"/></Link>
       Aqarius
     </div>
-    <div className="col">
+    <div className="col pics">
     <Link to="/Aries">
     <img src={aries} alt="aries"/></Link>
       Aries
