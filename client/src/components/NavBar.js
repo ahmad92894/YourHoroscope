@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import Auth from "../../src/utils/auth";
 
 const NavBar = () => {
@@ -26,7 +26,7 @@ const NavBar = () => {
           <li><Link to="/forum" className="nav-item">
               <a className="nav-link" href="#">Forum</a></Link>
               </li>
-              <li className="nav-item"><a className="nav-link" href="/" onClick={() => Auth.logout()} >logout</a></li>
+              <li className="nav-item"><a className="nav-link" href="/" onClick={() => Auth.logout()} >Logout</a></li>
           <ul/>
           </ul>
     </div>
