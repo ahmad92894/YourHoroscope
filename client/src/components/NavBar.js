@@ -59,7 +59,6 @@ const NavBar = () => {
                   Logout
                 </a>
               </li>
-              <li className="nav-item"><a className="nav-link" href="/" onClick={() => Auth.logout()} >logout</a></li>
           <ul/>
           </ul>
     </div>
