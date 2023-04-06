@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import axios from "axios";
+// import axios from "axios";
 import { Navigate } from "react-router-dom";
 
 
@@ -20,15 +20,15 @@ export const Home = () => {
     })();
   }, []);
 
-  const logout = async () => {
-    await axios.post(url, "logout", {}, { withCredentials: true });
+  // const logout = async () => {
+  //   await axios.post(url, "logout", {}, { withCredentials: true });
 
-    setNavigate(true);
-  };
+  //   setNavigate(true);
+  // };
 
-  if (navigate) {
-    return <Navigate to="/" />;
-  }
+  // if (navigate) {
+  //   return <Navigate to="/" />;
+  // }
   return (
 
     <div className="form-signin mt-5 text-center">
