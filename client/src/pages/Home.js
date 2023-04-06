@@ -2,6 +2,7 @@ import React from "react";
 // import { useQuery } from "@apollo/client";
 import Auth from "../utils/auth";
 import { Navigate } from "react-router-dom";
+import Homeimg from "../img/homeimg.png";
 
 function Home() {
   if (Auth.loggedIn()) {
@@ -9,10 +10,11 @@ function Home() {
   }
   return (
     <>
-
-
       <div>
-        <h1> Welcome to YourHoroscope! </h1>
+        <h1> <strong>Welcome to YourHoroscope!</strong> </h1>
+        <img src={Homeimg} alt="homeimg"
+              width="1500"
+              height="750" />
       </div>
     </>
   );
