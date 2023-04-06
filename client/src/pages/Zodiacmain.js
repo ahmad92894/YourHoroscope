@@ -15,70 +15,95 @@ import { Link } from 'react-router-dom';
 
 const Zodiacmain = () => {
     return (
-<div className="container text-center">
-  <div className="row align-items-end">
-    <div className="col pics">
-    <Link to="/Aquarius">
-    <img src={aqua} alt="aqua"/></Link>
-      Aqarius
-    </div>
-    <div className="col pics">
-    <Link to="/Aries">
-    <img src={aries} alt="aries"/></Link>
-      Aries
-    </div>
-    <div className="col">
-    <Link to="/Cancer">
-    <img src={cancer} alt="cancer"/></Link>
-        Cancer
-    </div>
-    <div className="col">
-    <Link to="/Capricorn">
-    <img src={capricorn} alt="capricorn"/></Link>   
-        Capricorn
-    </div>
-    <div className="col">
-    <Link to="/Gemini">
-    <img src={gemini} alt="gemini"/></Link>  
-        Gemini
-    </div>
-    <div className="col">
-    <Link to="/Leo">
-    <img src={leo} alt="leo"/></Link>
-        Leo
-    </div>
-    <div className="col">
-    <Link to="/Libra">
-    <img src={libra} alt="libra"/></Link>  
-        Libra
-    </div>
-    <div className="col">
-    <Link to="/Pisces">
-    <img src={pisces} alt="pisces"/></Link>
-        Pisces
-    </div>
-    <div className="col">
-    <Link to="/Sagittarius">
-    <img src={sagittarius} alt="sagittarius"/></Link>    
-        Sagittarius
-    </div>
-    <div className="col">
-    <Link to="/Scorpio">
-    <img src={scorpio} alt="scorpio"/></Link>
-        Scorpio
-    </div>
-    <div className="col">
-    <Link to="/Taurus">
-    <img src={taurus} alt="taurus"/></Link>
-        Taurus
-    </div>
-    <div className="col">
-    <Link to="/Virgo">
-    <img src={virgo} alt="virgo"/></Link>
-      Virgo
-    </div>
-  </div>
-</div>
+        <div className="container text-center">
+            <div className="row align-items-end">
+                <div className="col" style={{padding: "10px"}}>
+                    <Link to="/Aquarius"> 
+                        <img src={aqua} alt="aqua"
+                            width="400" 
+                            height="500" /></Link>
+
+                </div>
+                <div className="col" style={{padding: "10px"}}>
+                    <Link to="/Aries">
+                        <img src={aries} alt="aries"
+                            width="400" 
+                            height="500" /></Link>
+
+                </div>
+                <div className="col" style={{padding: "10px"}}>
+                    <Link to="/Cancer">
+                        <img src={cancer} alt="cancer"
+                            width="400" 
+                            height="500" /></Link>
+
+                </div>
+                <div className="col" style={{padding: "10px"}}>
+                    <Link to="/Capricorn">
+                        <img src={capricorn} alt="capricorn"
+                            width="400" 
+                            height="500" /></Link>
+
+                </div>
+                <div className="col" style={{padding: "10px"}}>
+                    <Link to="/Gemini">
+                        <img src={gemini} alt="gemini"
+                            width="400" 
+                            height="500" /></Link>
+
+                </div>
+                <div className="col" style={{padding: "10px"}}>
+                    <Link to="/Leo">
+                        <img src={leo} alt="leo"
+                            width="400" 
+                            height="500" /></Link>
+
+                </div>
+                <div className="col" style={{padding: "10px"}}>
+                    <Link to="/Libra">
+                        <img src={libra} alt="libra"
+                            width="400" 
+                            height="500" /></Link>
+
+                </div>
+                <div className="col" style={{padding: "10px"}}>
+                    <Link to="/Pisces">
+                        <img src={pisces} alt="pisces"
+                            width="400" 
+                            height="500" /></Link>
+
+                </div>
+                <div className="col" style={{padding: "10px"}}>
+                    <Link to="/Sagittarius">
+                        <img src={sagittarius} alt="sagittarius"
+                            width="400" 
+                            height="500" /></Link>
+
+                </div>
+                <div className="col" style={{padding: "10px"}}>
+                    <Link to="/Scorpio">
+                        <img src={scorpio} alt="scorpio"
+                            width="400" 
+                            height="500" /></Link>
+
+                </div>
+                <div className="col" style={{padding: "10px"}}>
+                    <Link to="/Taurus">
+                        <img src={taurus} alt="taurus"
+                            width="400" 
+                            height="500" /></Link>
+
+                </div>
+                <div className="col" style={{padding: "10px"}}>
+                    <Link to="/Virgo">
+                        <img src={virgo} alt="virgo"
+                            width="400" 
+                            height="500" /></Link>
+                            
+
+                </div>
+            </div>
+        </div>
 
     )
 }

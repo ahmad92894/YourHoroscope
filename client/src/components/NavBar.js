@@ -1,13 +1,18 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Auth from "../../src/utils/auth";
+import logo from '../img/logo.png';
 
 const NavBar = () => {
   return (
     <div>
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <div className="container-fluid">
-      <a className="navbar-brand" href="#">YourHoroscope</a>
+      <a className="navbar-brand"> </a>
+      <div class="navbar-brand">
+          <img id="logo" src={logo}  width="150" 
+                            height="100">
+            </img></div>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -23,7 +28,7 @@ const NavBar = () => {
           <li><Link to="/signup" className="nav-item">
                 <a className="nav-link" href="#">Sign Up</a></Link>
               </li>
-          <li><Link to="/forum" className="nav-item">
+          <li><Link to="/profile" className="nav-item">
               <a className="nav-link" href="#">Forum</a></Link>
               </li>
               <li className="nav-item"><a className="nav-link" href="/" onClick={() => Auth.logout()} >logout</a></li>
