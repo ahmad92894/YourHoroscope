@@ -24,7 +24,6 @@ function ZodiacSign() {
       {/* <code>
         <pre>{JSON.stringify(horoscope, null, 2)}</pre>
       </code> */}
-      hello zodiac sign
       <h1>{horoscope.sign}</h1>
       <h1>{horoscope.birthday}</h1>
       <h1>{horoscope.element}</h1>
