@@ -1,5 +1,4 @@
 import { gql } from "@apollo/client";
-
 export const QUERY_USER = gql`
   query user($username: String!) {
     user(username: $username) {
@@ -14,7 +13,6 @@ export const QUERY_USER = gql`
     }
   }
 `;
-
 export const QUERY_THOUGHTS = gql`
   query getThoughts {
     thoughts {
@@ -25,7 +23,6 @@ export const QUERY_THOUGHTS = gql`
     }
   }
 `;
-
 export const QUERY_SINGLE_THOUGHT = gql`
   query getSingleThought($thoughtId: ID!) {
     thought(thoughtId: $thoughtId) {
@@ -42,7 +39,6 @@ export const QUERY_SINGLE_THOUGHT = gql`
     }
   }
 `;
-
 export const QUERY_ME = gql`
   query me {
     me {

@@ -24,16 +24,29 @@ type Comment {
   createdAt: String
 }
 
+
+
 type Horoscope {
+
   _id: ID
+
   sign: String
+
   birthday: String
+
   element: String
+
   symbol: String
+
   background: String
+
   personality_traits: String
+
   most_compatible: String
+
 }
+
+
 
 type Auth {
   token: ID!
@@ -43,11 +56,18 @@ type Auth {
 type Query {
   users: [User]
   user(username: String!): User
+
   thoughts(username: String): [Thought]
+
   thought(thoughtId: ID!): Thought
+
   me: User
+
   horoscope(sign:String!): Horoscope
+
 }
+
+
 
 type Mutation {
   addUser(username: String!, email: String!, password: String!): Auth

@@ -1,7 +1,6 @@
 const { AuthenticationError } = require('apollo-server-express');
 const { User,Thought, Horoscope } = require('../models');
 const { signToken } = require('../utils/auth');
-
 const resolvers = {
   Query: {
     users: async () => {
@@ -31,9 +30,8 @@ const resolvers = {
       console.log('ITEM', item);
       return item;
     },
-    
-  },
 
+  },
   Mutation: {
     addUser: async (parent, { username, email, password }) => {
       const user = await User.create({ username, email, password });
@@ -42,19 +40,14 @@ const resolvers = {
     },
     login: async (parent, { email, password }) => {
       const user = await User.findOne({ email });
-
       if (!user) {
         throw new AuthenticationError('No user found with this email address');
       }
-
       const correctPw = await user.isCorrectPassword(password);
-
       if (!correctPw) {
         throw new AuthenticationError('Incorrect credentials');
       }
-
       const token = signToken(user);
-
       return { token, user };
     },
     addThought: async (parent, { thoughtText }, context) => {
@@ -63,12 +56,10 @@ const resolvers = {
           thoughtText,
           thoughtAuthor: context.user.username,
         });
-
         await User.findOneAndUpdate(
           { _id: context.user._id },
           { $addToSet: { thoughts: thought._id } }
         );
-
         return thought;
       }
       throw new AuthenticationError('You need to be logged in!');
@@ -96,12 +87,10 @@ const resolvers = {
           _id: thoughtId,
           thoughtAuthor: context.user.username,
         });
-
         await User.findOneAndUpdate(
           { _id: context.user._id },
           { $pull: { thoughts: thought._id } }
         );
-
         return thought;
       }
       throw new AuthenticationError('You need to be logged in!');
@@ -125,7 +114,4 @@ const resolvers = {
     },
   },
 };
-
-
-
   module.exports = resolvers;
