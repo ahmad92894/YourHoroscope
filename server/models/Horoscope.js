@@ -1,25 +1,25 @@
 const { Schema, model } = require('mongoose');
 
 const HoroSchema = new Schema({
-    Sign: {
+    sign: {
         type: String,
     },
-    Birthday: {
+    birthday: {
         type: String,
     },
-    Element: {
+    element: {
         type: String,
     },
-    Symbol: {
+    symbol: {
         type: String
     },
-    Background: {
+    background: {
         type: String,
     },
-    Personality_Traits: {
+    personality_traits: {
         type: String
     },
-    Most_Compatible: {
+    most_compatible: {
         type: String
     } 
 

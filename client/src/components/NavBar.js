@@ -9,7 +9,9 @@ const NavBar = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            YourHoroscope
+             <img src={logo} alt="logo"
+              width="150"
+              height="100" />
           </a>
           <button
             className="navbar-toggler"
@@ -25,7 +27,7 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li>
-                <Link to="/profile" className="nav-item">
+                <Link to="/zodiac" className="nav-item">
                   <a className="nav-link" href="#">
                     Profile
                   </a>

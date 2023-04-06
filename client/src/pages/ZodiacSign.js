@@ -6,10 +6,10 @@ import { Navigate } from "react-router-dom";
 import Auth from "../utils/auth";
 
 function ZodiacSign() {
-  const { zodiacsign } = useParams();
-  console.log(zodiacsign);
+  const { sign } = useParams();
+  console.log('SIGN', sign);
   const { loading, data } = useQuery(QUERY_SINGLE_HOROSCOPE, {
-    variables: { sign: zodiacsign },
+    variables: { sign: sign },
   });
   const horoscope = data?.horoscope || {};
   if (!Auth.loggedIn()) {
@@ -22,14 +22,17 @@ function ZodiacSign() {
 
   return (
     <div>
+      {/* <code>
+        <pre>{JSON.stringify(horoscope, null, 2)}</pre>
+      </code> */}
       hello zodiac sign
-      <h1>{horoscope.Sign}</h1>
-      <h1>{horoscope.Birthday}</h1>
-      <h1>{horoscope.Element}</h1>
-      <h1>{horoscope.Symbol}</h1>
-      <h1>{horoscope.Background}</h1>
-      <h1>{horoscope.Personality_Traits}</h1>
-      <h1>{horoscope.Most_Compatible}</h1>
+      <h1>{horoscope.sign}</h1>
+      <h1>{horoscope.birthday}</h1>
+      <h1>{horoscope.element}</h1>
+      <h1>{horoscope.symbol}</h1>
+      <h1>{horoscope.background}</h1>
+      <h1>{horoscope.personality_traits}</h1>
+      <h1>{horoscope.most_compatible}</h1>
     </div>
   );
 }

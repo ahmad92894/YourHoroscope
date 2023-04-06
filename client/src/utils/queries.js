@@ -59,15 +59,15 @@ export const QUERY_ME = gql`
   }
 `;
 export const QUERY_SINGLE_HOROSCOPE = gql`
-query Query ($sign: String!) {
-  horoscope(Sign: $sign) {
+query horoscope($sign: String!) {
+  horoscope(sign: $sign) {
     _id
-    Sign
-    Birthday
-    Element
-    Symbol
-    Background
-    Personality_Traits
-    Most_Compatible
+    sign
+    birthday
+    element
+    symbol
+    background
+    personality_traits
+    most_compatible
   }
 }`
