@@ -59,14 +59,13 @@ const NavBar = () => {
                   Logout
                 </a>
               </li>
-              <ul />
-            </ul>
-          </div>
-        </div>
-        <ul />
-      </nav>
+          <ul/>
+          </ul>
     </div>
-  );
-};
+    </div>
+    <ul/>
+    </nav>
+  </div>
+  )}
 
 export default NavBar;

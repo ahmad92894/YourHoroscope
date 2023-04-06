@@ -15,7 +15,6 @@ function ZodiacSign() {
   if (!Auth.loggedIn()) {
     return <Navigate to="/login" />;
   }
-
   if (loading) {
     return <div>Loading...</div>;
   }
@@ -25,7 +24,6 @@ function ZodiacSign() {
       {/* <code>
         <pre>{JSON.stringify(horoscope, null, 2)}</pre>
       </code> */}
-      hello zodiac sign
       <h1>{horoscope.sign}</h1>
       <h1>{horoscope.birthday}</h1>
       <h1>{horoscope.element}</h1>
@@ -36,5 +34,4 @@ function ZodiacSign() {
     </div>
   );
 }
-
 export default ZodiacSign;
