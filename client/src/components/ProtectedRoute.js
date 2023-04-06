@@ -1,28 +1,43 @@
 // import React, { useEffect, useState } from "react";
 // import { Route, useNavigate } from "react-router-dom";
 
-// const ProtectedRoute = (props) => {
+// const ProtectedRoute = ({ children, isLoggedIn, ...rest }) => {
 //   const navigate = useNavigate();
-//   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
 //   const checkUserToken = () => {
 //     const userToken = localStorage.getItem("user-token");
 //     if (!userToken || userToken === "undefined") {
-//       setIsLoggedIn(false);
 //       return navigate("/auth/login");
 //     }
-//     setIsLoggedIn(true);
 //   };
+
+//   function ErrorMessage() {
+//     const [errorMessage, setErrorMessage] = React.useState("");
+//     const handleClick = () => {
+//       setErrorMessage("Example error message!");
+//     };
+//     return (
+//       <div className="App">
+//         <button onClick={handleClick}>Show error message</button>
+//         {errorMessage && <div className="error"> {errorMessage} </div>}
+//       </div>
+//     );
+//   }
 
 //   useEffect(() => {
 //     checkUserToken();
 //   }, []);
 
-//   return <React.Fragment>{isLoggedIn ? props.children : null}</React.Fragment>;
+//   if (isLoggedIn) {
+//     return <Route {...rest}>{children}</Route>;
+//   } else {
+//     return null;
+//   }
 // };
 
 // export default ProtectedRoute;
-import React, { useEffect, useState } from "react";
+
+import React, { useEffect } from "react";
 import { Route, useNavigate } from "react-router-dom";
 
 const ProtectedRoute = ({ children, isLoggedIn, ...rest }) => {
@@ -31,13 +46,26 @@ const ProtectedRoute = ({ children, isLoggedIn, ...rest }) => {
   const checkUserToken = () => {
     const userToken = localStorage.getItem("user-token");
     if (!userToken || userToken === "undefined") {
-      return navigate("/auth/login");
+      navigate("/auth/login");
     }
   };
 
   useEffect(() => {
     checkUserToken();
-  }, []);
+  }, [isLoggedIn, navigate]);
+
+  const ErrorMessage = () => {
+    const [errorMessage, setErrorMessage] = React.useState("");
+    const handleClick = () => {
+      setErrorMessage("Example error message!");
+    };
+    return (
+      <div className="App">
+        <button onClick={handleClick}>Show error message</button>
+        {errorMessage && <div className="error"> {errorMessage} </div>}
+      </div>
+    );
+  };
 
   if (isLoggedIn) {
     return <Route {...rest}>{children}</Route>;
@@ -47,3 +75,4 @@ const ProtectedRoute = ({ children, isLoggedIn, ...rest }) => {
 };
 
 export default ProtectedRoute;
+
