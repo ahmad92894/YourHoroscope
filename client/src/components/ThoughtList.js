@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+ 
 
 const ThoughtList = ({
   thoughts,
@@ -31,7 +32,7 @@ const ThoughtList = ({
               ) : (
                 <>
                   <span style={{ fontSize: '1rem' }}>
-                    You had this thought on {thought.createdAt}
+                  {`${thought.thoughtAuthor} had this thought on ${thought.createdAt}`}
                   </span>
                 </>
               )}
