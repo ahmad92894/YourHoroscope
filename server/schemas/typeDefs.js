@@ -26,13 +26,13 @@ type Comment {
 
 type Horoscope {
   _id: ID
-  Sign: String
-  Birthday: String
-  Element: String
-  Symbol: String
-  Background: String
-  Personality_Traits: String
-  Most_Compatible: String
+  sign: String
+  birthday: String
+  element: String
+  symbol: String
+  background: String
+  personality_traits: String
+  most_compatible: String
 }
 
 type Auth {
@@ -46,7 +46,7 @@ type Query {
   thoughts(username: String): [Thought]
   thought(thoughtId: ID!): Thought
   me: User
-  horoscope(Sign:String!): Horoscope
+  horoscope(sign:String!): Horoscope
 }
 
 type Mutation {
