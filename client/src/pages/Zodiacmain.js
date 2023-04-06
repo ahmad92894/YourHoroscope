@@ -22,80 +22,106 @@ const Zodiacmain = () => {
   return (
     <div className="container text-center">
       <div className="row align-items-end">
-        <div className="col">
+        <div className="col" style={{ padding: "10px" }}>
           <Link to="/zodiac/aquarius">
-            <img src={aqua} alt="aqua" />
-          </Link>
-          Aqarius
+            <img src={aqua} alt="aqua"
+              width="400"
+              height="500" />
+              </Link>
+
         </div>
-        <div className="col">
+        <div className="col" style={{ padding: "10px" }}>
           <Link to="/zodiac/aries">
-            <img src={aries} alt="aries" />
+            <img src={aries} alt="aries"
+              width="400"
+              height="500" />
           </Link>
-          Aries
+
         </div>
-        <div className="col">
+        <div className="col" style={{ padding: "10px" }}>
           <Link to="/zodiac/cancer">
-            <img src={cancer} alt="cancer" />
+            <img src={cancer} alt="cancer"
+              width="400"
+              height="500" />
           </Link>
-          Cancer
+
         </div>
-        <div className="col">
+        <div className="col" style={{ padding: "10px" }}>
           <Link to="/zodiac/capricorn">
-            <img src={capricorn} alt="capricorn" />
+            <img src={capricorn} alt="capricorn"
+              width="400"
+              height="500" />
           </Link>
-          Capricorn
+
         </div>
-        <div className="col">
+        <div className="col" style={{ padding: "10px" }}>
           <Link to="/zodiac/gemini">
-            <img src={gemini} alt="gemini" />
+            <img src={gemini} alt="gemini"
+              width="400"
+              height="500" />
           </Link>
-          Gemini
+
         </div>
-        <div className="col">
+        <div className="col" style={{ padding: "10px" }}>
           <Link to="/zodiac/leo">
-            <img src={leo} alt="leo" />
+            <img src={leo} alt="leo"
+              width="400"
+              height="500" />
           </Link>
-          Leo
+
         </div>
-        <div className="col">
+        <div className="col" style={{ padding: "10px" }}>
           <Link to="/zodiac/libra">
-            <img src={libra} alt="libra" />
+            <img src={libra} alt="libra"
+              width="400"
+              height="500" />
           </Link>
-          Libra
+
         </div>
-        <div className="col">
+        <div className="col" style={{ padding: "10px" }}>
           <Link to="/zodiac/pisces">
-            <img src={pisces} alt="pisces" />
+            <img src={pisces} alt="pisces"
+              width="400"
+              height="500" />
           </Link>
-          Pisces
+
         </div>
-        <div className="col">
+        <div className="col" style={{ padding: "10px" }}>
           <Link to="/zodiac/sagittarius">
-            <img src={sagittarius} alt="sagittarius" />
+            <img src={sagittarius} alt="sagittarius"
+              width="400"
+              height="500" />
           </Link>
-          Sagittarius
+
         </div>
-        <div className="col">
+        <div className="col" style={{ padding: "10px" }}>
           <Link to="/zodiac/scorpio">
-            <img src={scorpio} alt="scorpio" />
+            <img src={scorpio} alt="scorpio"
+              width="400"
+              height="500" />
           </Link>
-          Scorpio
+
         </div>
-        <div className="col">
+        <div className="col" style={{ padding: "10px" }}>
           <Link to="/zodiac/taurus">
-            <img src={taurus} alt="taurus" />
+            <img src={taurus} alt="taurus"
+              width="400"
+              height="500" />
           </Link>
-          Taurus
+
         </div>
-        <div className="col">
+        <div className="col" style={{ padding: "10px" }}>
           <Link to="/zodiac/virgo">
-            <img src={virgo} alt="virgo" />
+            <img src={virgo} alt="virgo"
+              width="400"
+              height="500" />
           </Link>
-          Virgo
+
         </div>
       </div>
     </div>
   );
 };
 export default Zodiacmain;
+
+
