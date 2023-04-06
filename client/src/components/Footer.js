@@ -2,13 +2,14 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>   <footer className='footer mt-auto py-3 bg-white text-black'>
+    
+    <footer className='footer mt-auto py-8 bg-white text-black'>
     <div className='container'>
+    <a href="https://github.com/ahmad92894/YourHoroscope">Github</a>
+    
     </div>
-    
-    
   </footer>
-  </div>
+  
   )
 }
 
