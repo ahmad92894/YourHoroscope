@@ -21,10 +21,7 @@ const HoroSchema = new Schema({
     },
     most_compatible: {
         type: String
-    } 
-
+    }
 });
-
 const Horoscope = model('Horoscope', HoroSchema);
-
 module.exports = Horoscope;

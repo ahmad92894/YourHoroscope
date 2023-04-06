@@ -15,7 +15,6 @@ function ZodiacSign() {
   if (!Auth.loggedIn()) {
     return <Navigate to="/login" />;
   }
-
   if (loading) {
     return <div>Loading...</div>;
   }
@@ -36,5 +35,4 @@ function ZodiacSign() {
     </div>
   );
 }
-
 export default ZodiacSign;

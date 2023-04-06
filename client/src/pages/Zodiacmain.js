@@ -1,4 +1,3 @@
-import React from "react";
 import aqua from "../img/aqua.png";
 import aries from "../img/aries.png";
 import cancer from "../img/cancer.png";
@@ -14,7 +13,6 @@ import virgo from "../img/virgo.png";
 import { Link } from "react-router-dom";
 import { Navigate } from "react-router-dom";
 import Auth from "../utils/auth";
-
 const Zodiacmain = () => {
   if (!Auth.loggedIn()) {
     return <Navigate to="/login" />;
@@ -123,5 +121,3 @@ const Zodiacmain = () => {
   );
 };
 export default Zodiacmain;
-
-
