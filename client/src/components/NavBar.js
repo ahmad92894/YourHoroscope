@@ -101,12 +101,12 @@ const NavBar = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link to="/zodiac" className="nav-link">
-                  Zodiac
+                <strong>Zodiac</strong> 
                 </Link>
               </li>
               <li className="nav-item">
                 <Link to="/forum" className="nav-link">
-                  Forum
+                <strong>Forum</strong>
                 </Link>
               </li>
             </ul>
@@ -119,19 +119,19 @@ const NavBar = () => {
                     className="nav-link"
                     onClick={() => Auth.logout()}
                   >
-                    Logout
+                    <strong>Logout</strong>
                   </Link>
                 </li>
               ) : (
                 <>
                   <li className="nav-item">
                     <Link to="/login" className="nav-link">
-                      Login
+                    <strong>Login</strong>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link to="/signup" className="nav-link">
-                      Sign Up
+                      <strong>Sign Up</strong>
                     </Link>
                   </li>
                 </>

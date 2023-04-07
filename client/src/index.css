@@ -1,11 +1,8 @@
-
-
-
 body {
-  
+  line-height: 2rem;
   margin: 0;
   font-family: 'Shadows Into Light', cursive;
-  font-family: 'Zeyada', cursive;
+  font-family: 'Exo', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color : rgb(248, 245, 245)
@@ -16,4 +13,6 @@ code {
   font-family: 'Zeyada', cursive;
 }
 
-
+dl {
+  font-size: 1.5rem;
+}
