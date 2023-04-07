@@ -1,5 +1,4 @@
 import { useState } from "react";
-//import { Navigate } from "react-router-dom";
 import { useMutation } from "@apollo/client"
 import { ADD_USER } from "../utils/mutations"
 import Auth from "../utils/auth"
@@ -8,7 +7,6 @@ export const SignUp = () => {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  //const [navigate, setNavigate] = useState(false);
   const [addUser, { error, data }] = useMutation(ADD_USER);
   
   const submit = async (e) => {
@@ -22,14 +20,8 @@ export const SignUp = () => {
     } catch (err) {
       console.log(err);
     };
-  
-
-    //setNavigate(true);
   };
 
-  //if (navigate) {
-    //return <Navigate to="/" />;
-//}
   return (
     <main className="form-signin w-100 m-auto">
       <form onSubmit={submit}>

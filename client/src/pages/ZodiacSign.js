@@ -21,18 +21,15 @@ function ZodiacSign() {
 
   return (
     <div style={{ padding: "100px" }}>
-      {/* <code>
-        <pre>{JSON.stringify(horoscope, null, 2)}</pre>
-      </code> */}
       
-      <h1>  <strong>Sign:</strong>    {horoscope.sign}</h1>
-      <h1>    <strong>Birthday:</strong>  {horoscope.birthday}</h1>
-      <h1>   <strong>Element:</strong>   {horoscope.element}</h1>
-      <h1>   <strong>Symbol:</strong>   {horoscope.symbol}</h1>
-      <h1>    <strong>Background:</strong>  {horoscope.background}</h1>
+      <h1>    <strong>Sign:</strong>                {horoscope.sign}</h1>
+      <h1>    <strong>Birthday:</strong>            {horoscope.birthday}</h1>
+      <h1>    <strong>Element:</strong>             {horoscope.element}</h1>
+      <h1>    <strong>Symbol:</strong>              {horoscope.symbol}</h1>
+      <h1>    <strong>Background:</strong>          {horoscope.background}</h1>
       <h1>    <strong>Personality Traits:</strong>  {horoscope.personality_traits}</h1>
-      <h1>    <strong>Most Compatible:</strong> {horoscope.most_compatible}</h1>
-      <h1>    <strong>Todays Horoscope:</strong> {horoscope.todays_horoscope}</h1>
+      <h1>    <strong>Most Compatible:</strong>     {horoscope.most_compatible}</h1>
+      <h1>    <strong>Todays Horoscope:</strong>    {horoscope.todays_horoscope}</h1>
     </div>
   );
 }

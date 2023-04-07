@@ -13,6 +13,7 @@ import virgo from "../img/virgo.png";
 import { Link } from "react-router-dom";
 import { Navigate } from "react-router-dom";
 import Auth from "../utils/auth";
+
 const Zodiacmain = () => {
   if (!Auth.loggedIn()) {
     return <Navigate to="/login" />;
