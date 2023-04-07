@@ -24,15 +24,71 @@ function ZodiacSign() {
       {/* <code>
         <pre>{JSON.stringify(horoscope, null, 2)}</pre>
       </code> */}
-      
-      <h1>  <strong>Sign:</strong>    {horoscope.sign}</h1>
-      <h1>    <strong>Birthday:</strong>  {horoscope.birthday}</h1>
-      <h1>   <strong>Element:</strong>   {horoscope.element}</h1>
-      <h1>   <strong>Symbol:</strong>   {horoscope.symbol}</h1>
-      <h1>    <strong>Background:</strong>  {horoscope.background}</h1>
-      <h1>    <strong>Personality Traits:</strong>  {horoscope.personality_traits}</h1>
-      <h1>    <strong>Most Compatible:</strong> {horoscope.most_compatible}</h1>
-      <h1>    <strong>Todays Horoscope:</strong> {horoscope.todays_horoscope}</h1>
+
+      <dl className="d-flex flex-column">
+        <dt className="mr-3">
+          <strong>Sign:</strong>
+        </dt>
+        <dd>
+          {horoscope.sign}
+          </dd>
+        </dl>
+      <dl>
+        <dt className="mr-3">
+          <strong>Birthday:</strong>
+        </dt>
+         <dd>
+          {horoscope.birthday}
+          </dd>
+        </dl>
+      <dl>
+        <dt className="mr-3">
+          <strong>Element:</strong>
+        </dt>
+          <dd>
+            {horoscope.element}
+            </dd>
+          </dl>
+      <dl>
+        <dt className="mr-3">
+          <strong>Symbol:</strong>
+        </dt>
+          <dd>
+            {horoscope.symbol}
+            </dd>
+          </dl>
+      <dl>
+        <dt className="mr-3">
+          <strong>Background:</strong>
+        </dt>
+         <dd>
+          {horoscope.background}
+          </dd>
+        </dl>
+      <dl>
+        <dt className="mr-3">
+          <strong>Personality Traits:</strong>
+        </dt>
+         <dd>
+          {horoscope.personality_traits}
+          </dd>
+        </dl>
+      <dl>
+        <dt className="mr-3">
+          <strong>Most Compatible:</strong>
+        </dt>
+        <dd>
+          {horoscope.most_compatible}
+          </dd>
+        </dl>
+      <dl>
+        <dt className="mr-3">
+          <strong>Todays Horoscope:</strong>
+        </dt>
+        <dd>
+          {horoscope.todays_horoscope}
+          </dd>
+        </dl>
     </div>
   );
 }
