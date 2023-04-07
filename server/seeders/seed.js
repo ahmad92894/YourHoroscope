@@ -1,7 +1,7 @@
 const db = require('../config/connection');
 const { User, Thought, Horoscope } = require('../models');
 const userSeeds = require('./userSeeds.json');
-const thoughtSeeds = require('./thoughtSeeds.json');
+const thoughtSeeds = require('./thoughtseeds.json');
 const horoscopeSeeds = require('./horoscopeSeeds.json');
 
 db.once('open', async () => {
