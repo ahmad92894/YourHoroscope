@@ -7,10 +7,10 @@ const Footer = () => {
     
     
    
-    <div class="card-body">
-     <h5 class="card-title">Your Horoscope</h5>
-     <p class="card-text">Thank you for visiting are website.</p>
-     <a href="https://github.com/ahmad92894/YourHoroscope" class="btn btn-primary">github</a>
+    <div className="card-body">
+     <h5 className="card-title">Your Horoscope</h5>
+     <p className="card-text">Thank you for visiting are website.</p>
+     <a href="https://github.com/ahmad92894/YourHoroscope" className="btn btn-primary">github</a>
    </div>
  
  
