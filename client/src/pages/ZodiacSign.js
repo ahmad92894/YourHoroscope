@@ -47,6 +47,7 @@ import { useParams, Navigate } from "react-router-dom";
 import Auth from "../utils/auth";
 import { API } from "../components/API";
 import { QUERY_SINGLE_HOROSCOPE } from "../utils/queries";
+import axios from "../utils/axios";
 
 function ZodiacSign() {
   const { sign } = useParams();
@@ -87,6 +88,9 @@ function ZodiacSign() {
       </h1>
       <h1>
         <strong>Todays Horoscope:</strong> {horoscope.todays_horoscope}
+      </h1>
+      <h1>
+       
       </h1>
     </div>
   );
