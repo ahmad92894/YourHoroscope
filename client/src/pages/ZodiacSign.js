@@ -32,7 +32,7 @@ function ZodiacSign() {
       <h1>    <strong>Background:</strong>  {horoscope.background}</h1>
       <h1>    <strong>Personality Traits:</strong>  {horoscope.personality_traits}</h1>
       <h1>    <strong>Most Compatible:</strong> {horoscope.most_compatible}</h1>
-     
+      <h1>    <strong>Todays Horoscope:</strong> {horoscope.todays_horoscope}</h1>
     </div>
   );
 }

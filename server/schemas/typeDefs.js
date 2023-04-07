@@ -44,6 +44,8 @@ type Horoscope {
 
   most_compatible: String
 
+  todays_horoscope: String
+
 }
 
 
