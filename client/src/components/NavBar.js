@@ -73,7 +73,7 @@
 
 
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Auth from "../../src/utils/auth";
 import logo from "../img/logo.png";
 import NavBarUser from "../../src/components/NavBarUser";
@@ -101,12 +101,12 @@ const NavBar = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link to="/zodiac" className="nav-link">
-                <strong>Zodiac</strong> 
+                <strong style={{ fontSize:20 }}>Zodiac</strong> 
                 </Link>
               </li>
               <li className="nav-item">
                 <Link to="/forum" className="nav-link">
-                <strong>Forum</strong>
+                <strong style={{ fontSize:20 }}>Forum</strong> 
                 </Link>
               </li>
             </ul>
@@ -119,7 +119,7 @@ const NavBar = () => {
                     className="nav-link"
                     onClick={() => Auth.logout()}
                   >
-                    <strong>Logout</strong>
+                    <strong style={{ fontSize:20 }}>Logout</strong>
                   </Link>
                 </li>
               ) : (
