@@ -18,7 +18,13 @@ const Forum = () => {
 //   navigate to personal profile page if username is yours
   if (Auth.loggedIn() && Auth.getProfile().data.username === userParam) {
     return <Navigate to="/me" />;
-  }
+  } 
+
+
+    if (!Auth.loggedIn()) {
+      return <Navigate to="/login" />;
+    }
+  
 
   if (loading) {
     return <div>Loading...</div>;
