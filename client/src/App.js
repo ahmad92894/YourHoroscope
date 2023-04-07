@@ -64,6 +64,7 @@ function App() {
             </div>
             <Footer />
           </div>
+          
         </div>
       </BrowserRouter>
     </ApolloProvider>
