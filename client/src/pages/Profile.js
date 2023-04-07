@@ -1,7 +1,6 @@
 import React from 'react';
 import Auth from "../utils/auth";
 import { Navigate } from "react-router-dom";
-
 import ThoughtForm from '../components/ThoughtForm';
 import ThoughtList from '../components/ThoughtList';
 

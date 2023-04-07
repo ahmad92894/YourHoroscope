@@ -14,12 +14,9 @@ import "./App.css";
 import Home from "./pages/Home";
 import { SignUp } from "./components/SignUp";
 import { Login } from "./components/Login";
-// import Profile from "./pages/Profile";
 import Zodiacmain from "./pages/Zodiacmain";
 import ZodiacSign from "./pages/ZodiacSign";
 import Forum from "./pages/Forum";
-// import ThoughtForm from "./components/ThoughtForm";
-// import ThoughtList from "./components/ThoughtList";
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
@@ -57,7 +54,6 @@ function App() {
                 <Route path="/forum" element={<Forum />} />
                 <Route path="/signup" element={<SignUp />} />
                 <Route path="/login" element={<Login />} />
-                {/* <Route path="/profile" element={<Profile />} /> */}
                 <Route path="/zodiac" element={<Zodiacmain />} />
                 <Route path="/zodiac/:sign" element={<ZodiacSign />} />
               </Routes>
