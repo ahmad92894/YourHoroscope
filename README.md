@@ -29,14 +29,16 @@ YourHoroscope is a simple web application that allows users to find out their ho
    
 ---
 ## Installation:
-  Clone the repo from GitHub using the repo link below.
+  GitHub Repo:
+  https://github.com/ahmad92894/YourHoroscope
 
-  To clone the repo:
-  
-      git clone git@github.com:ahmad92894/YourHoroscope.git
-  
+
     Please make sure to run npm i on all 3 package.json
-    for your convience you can use npm run install 
+    for your convience you can use npm run install
+    
+    Fake user account for testing:
+    username: tim
+    password: ptsd
 
 ---
 ## Usage
